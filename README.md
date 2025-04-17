@@ -152,4 +152,3 @@ This project is licensed under the MIT License.
 
 - [Stripe API Docs](https://stripe.com/docs/api)
 - [Prisma Docs](https://www.prisma.io/docs)
-- [Passport.js Docs](http://www.passportjs.org/docs/)
