@@ -18,4 +18,6 @@ export default {
   request_time_limit: process.env.REQUEST_TIMEOUT,
   json_size_limit: process.env.MAX_JSON_SIZE,
   url_encoded_limit: process.env.URL_ENCODE,
+  stripe_secret_key: process.env.STRIPE_SECRET_KEY,
+  stripe_publishable_key: process.env.STRIPE_PUBLISHABLE_KEY,
 };
