@@ -38,7 +38,7 @@ npm install
 Create a `.env` file in the root of the project and configure:
 
 ```env
-PORT=5000
+PORT=6050
 DATABASE_URL=your_database_url_here
 JWT_ACCESS_SECRET=your_jwt_secret
 JWT_REFRESH_SECRET=your_jwt_secret
