@@ -94,7 +94,7 @@ This will start the server on `http://localhost:5000`.
 
 | Method | Endpoint                           | Description                          |
 |--------|------------------------------------|--------------------------------------|
-| POST   | `/payments/create-checkout-session` | Create a Stripe checkout session     |
+| POST   | `/payments/checkout` | Create a Stripe checkout session     |
 | GET    | `/payments/status/:stripeId`       | Check status of a payment by Stripe ID |
 
 ---
