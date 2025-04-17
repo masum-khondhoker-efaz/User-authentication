@@ -82,8 +82,6 @@ This will start the server on `http://localhost:6050`.
 
 ## Super admin credentials
 ```markdown
-### 🛠️ Super Admin Credentials
-
 Use the following credentials to log in as a super admin:
 
 - **Email**: `admin@gmail.com`
