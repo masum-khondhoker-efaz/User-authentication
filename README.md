@@ -124,7 +124,6 @@ src/
 │   ├── modules/
 │   │   ├── auth/
 │   │   ├── payments/
-│   │   └── users/
 │   ├── middlewares/
 │   ├── utils/
 │   └── errors/
