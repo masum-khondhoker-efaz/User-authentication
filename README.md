@@ -8,8 +8,8 @@ A secure and modern RESTful API built with **Node.js**, **Express**, **JWT**, **
 ## 📦 Tech Stack
 
 - **Backend Framework**: Express.js
-- **Authentication**: Passport.js + JWT
-- **ORM**: Prisma (with MongoDB or PostgreSQL)
+- **Authentication**: JWT
+- **ORM**: Prisma (with MongoDB)
 - **Password Security**: Bcrypt.js
 - **Payments**: Stripe
 - **Validation**: Zod
@@ -23,8 +23,8 @@ A secure and modern RESTful API built with **Node.js**, **Express**, **JWT**, **
 ### 1. **Clone the Repository**
 
 ```bash
-git clone https://github.com/your-username/secure-auth-payment-api.git
-cd secure-auth-payment-api
+git clone https://github.com/masum-khondhoker-efaz/User-authentication.git
+cd User-authentication
 ```
 
 ### 2. **Install Dependencies**
@@ -40,10 +40,12 @@ Create a `.env` file in the root of the project and configure:
 ```env
 PORT=5000
 DATABASE_URL=your_database_url_here
-JWT_SECRET=your_jwt_secret
+JWT_ACCESS_SECRET=your_jwt_secret
+JWT_REFRESH_SECRET=your_jwt_secret
 JWT_EXPIRES_IN=1d
+JWT_REFRESH_EXPIRES_IN=7d
 STRIPE_SECRET_KEY=your_stripe_secret_key
-SERVER_URL=http://localhost:5000
+SERVER_URL=http://localhost:5173
 ```
 
 > 🔐 Make sure to never commit `.env` to version control.
@@ -130,7 +132,6 @@ src/
 - [x] Protected Routes
 - [x] Prisma ORM Integration
 - [x] Status Check for Stripe Payments
-- [ ] Webhook support (coming soon)
 
 ---
 
