@@ -76,7 +76,7 @@ npx prisma db push
 npm run dev
 ```
 
-This will start the server on `http://localhost:5000`.
+This will start the server on `http://localhost:6050`.
 
 ---
 
@@ -89,6 +89,7 @@ This will start the server on `http://localhost:5000`.
 | POST   | `/auth/register`  | Register a new user              |
 | POST   | `/auth/login`     | Login and receive JWT token      |
 | GET    | `/auth/me`        | Get logged-in user info (secure) |
+| POST    | `/auth/refresh-token` | Get refresh token (secure)  |
 
 ### 💸 Payments
 
